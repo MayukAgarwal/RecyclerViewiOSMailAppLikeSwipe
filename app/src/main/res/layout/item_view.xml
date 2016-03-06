@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="72dp">
+
+    <FrameLayout
+        android:id="@+id/option_view_1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="#ccc"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground">
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/option_view_2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="#33f"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground">
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/option_view_3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="#f66"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground">
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/swipeable_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:id="@android:id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|left"/>
+    </FrameLayout>
+</FrameLayout>
